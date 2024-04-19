@@ -1,0 +1,12 @@
+1- Question 1 :
+
+to use this project in RTOS environment we need to make tasks for the activites 
+
+- task for the read & write from I2C and also givng priortites to the tasks that want to use the I2C .
+
+
+2- Question 2 : 
+
+the I2C functions shall verify if the pointer *buffer is null or not before assigning data to it 
+
+and return false if it points to null 
